@@ -1,0 +1,94 @@
+@import "../styles/colors";
+
+$playerHeight: 100px;
+
+.MiniPlayer {
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    height: 150vh;
+    font-family: "Roboto", "Arial", "sans-serif";
+    overflow: hidden;
+    touch-action: none;
+    background-color: $primary;
+    color: $on-primary;
+
+    .MinimizedContent {
+        height: $playerHeight;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .Video {
+            height: 100%;
+            width: $playerHeight * (16/9);
+            img {
+                height: 100%;
+                width: 100%;
+                background-color: $secondary;
+            }
+        }
+
+        .VideoInfo {
+            display: flex;
+            flex-flow: column nowrap;
+            flex-grow: 1;
+            justify-content: center;
+            margin-left: 1rem;
+            p {
+                white-space: nowrap;
+            }
+            p:first-child {
+                width: 80%;
+                font-size: large;
+                margin-bottom: 0.5rem;
+                background-color: $surface;
+
+            }
+            p:last-child {
+                width: 50%;
+                background-color: $surface;
+
+            }
+        }
+
+        .VideoControl {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            > span {
+                padding: 0.5rem;
+            }
+        }
+
+        .ProgressBar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: red;
+            width: 100vw;
+            height: 2px;
+            > div {
+                background-color: rgb(255, 13, 12);
+                width: 50%;
+                height: 100%;
+            }
+        }
+    }
+    .MaximixedContent {
+        width: 100vw;
+        height: calc(100vh / 3 * 2);
+        overflow-y: scroll; 
+    }
+}
+
+.NavBar {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
