@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.52d0ef63.chunk.css",
-    "main.js": "/static/js/main.4d089254.chunk.js",
-    "main.js.map": "/static/js/main.4d089254.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8f2b6f0e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8f2b6f0e.js.map",
-    "static/js/2.a4663204.chunk.js": "/static/js/2.a4663204.chunk.js",
-    "static/js/2.a4663204.chunk.js.map": "/static/js/2.a4663204.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e4ce9c8f52751b8be66c3ec26f3ffd54.js": "/precache-manifest.e4ce9c8f52751b8be66c3ec26f3ffd54.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.52d0ef63.chunk.css.map": "/static/css/main.52d0ef63.chunk.css.map",
-    "static/js/2.a4663204.chunk.js.LICENSE.txt": "/static/js/2.a4663204.chunk.js.LICENSE.txt",
-    "static/media/brand.e8991cf4.svg": "/static/media/brand.e8991cf4.svg"
+    "main.css": "/youtube-mobile-clone/static/css/main.52d0ef63.chunk.css",
+    "main.js": "/youtube-mobile-clone/static/js/main.4d089254.chunk.js",
+    "main.js.map": "/youtube-mobile-clone/static/js/main.4d089254.chunk.js.map",
+    "runtime-main.js": "/youtube-mobile-clone/static/js/runtime-main.7167895e.js",
+    "runtime-main.js.map": "/youtube-mobile-clone/static/js/runtime-main.7167895e.js.map",
+    "static/js/2.a4663204.chunk.js": "/youtube-mobile-clone/static/js/2.a4663204.chunk.js",
+    "static/js/2.a4663204.chunk.js.map": "/youtube-mobile-clone/static/js/2.a4663204.chunk.js.map",
+    "index.html": "/youtube-mobile-clone/index.html",
+    "precache-manifest.d4d96ae3fd07e8ce235acc2448c5cd57.js": "/youtube-mobile-clone/precache-manifest.d4d96ae3fd07e8ce235acc2448c5cd57.js",
+    "service-worker.js": "/youtube-mobile-clone/service-worker.js",
+    "static/css/main.52d0ef63.chunk.css.map": "/youtube-mobile-clone/static/css/main.52d0ef63.chunk.css.map",
+    "static/js/2.a4663204.chunk.js.LICENSE.txt": "/youtube-mobile-clone/static/js/2.a4663204.chunk.js.LICENSE.txt",
+    "static/media/brand.e8991cf4.svg": "/youtube-mobile-clone/static/media/brand.e8991cf4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f2b6f0e.js",
+    "static/js/runtime-main.7167895e.js",
     "static/js/2.a4663204.chunk.js",
     "static/css/main.52d0ef63.chunk.css",
     "static/js/main.4d089254.chunk.js"
