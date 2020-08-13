@@ -1,0 +1,16 @@
+@import "./styles/colors";
+
+.MainPage {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $primary;
+    
+    /* make scrollbar transparent */
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent; 
+    }
+}
